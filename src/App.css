@@ -66,6 +66,7 @@ a {
 /* Hero */
 
 .hero {
+  width: 100%;
   max-width: 1150px;
   min-height: 650px;
   margin: auto;
@@ -336,6 +337,7 @@ a {
 
 @media (max-width: 700px) {
   .navbar {
+    height: 65px;
     padding: 0 20px;
   }
 
@@ -344,21 +346,68 @@ a {
   }
 
   .hero {
-    padding: 80px 20px;
-    min-height: 600px;
+    width: 100%;
+    min-height: auto;
+    padding: 90px 20px 80px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .intro {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
   }
 
   .hero h1 {
-    font-size: 55px;
-    letter-spacing: -3px;
+    display: block;
+    width: 100%;
+    font-size: 52px;
+    line-height: 1;
+    letter-spacing: -2.5px;
+    margin-bottom: 30px;
+    color: #171717;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .hero h1 span {
+    display: inline;
+    color: #777;
   }
 
   .hero-description {
+    display: block;
+    width: 100%;
+    max-width: 100%;
     font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .button {
+    padding: 12px 18px;
   }
 
   .section {
     padding: 80px 20px;
+  }
+
+  .section-header {
+    gap: 15px;
+    margin-bottom: 40px;
   }
 
   .section-header h2 {
