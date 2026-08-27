@@ -71,9 +71,8 @@ function App() {
             </h1>
 
             <p className="hero-description">
-              I build reliable and user-focused mobile applications for
-              Android and iOS using React Native and modern development
-              technologies.
+              I build reliable and user-focused mobile applications for Android
+              and iOS using React Native and modern development technologies.
             </p>
 
             <div className="hero-buttons">
@@ -97,15 +96,15 @@ function App() {
 
           <div className="about-content">
             <p>
-              I am a Mobile App Developer with a passion for building
-              practical, responsive and user-friendly applications.
+              I am a Mobile App Developer with a passion for building practical,
+              responsive and user-friendly applications.
             </p>
 
             <p>
               My development experience includes React Native, TypeScript,
-              JavaScript, Firebase and API integration. I enjoy turning
-              ideas into functional products while maintaining clean and
-              maintainable code.
+              JavaScript, Firebase and API integration. I enjoy turning ideas
+              into functional products while maintaining clean and maintainable
+              code.
             </p>
           </div>
         </section>
@@ -145,10 +144,6 @@ function App() {
                 <p>{project.description}</p>
 
                 <span className="project-tech">{project.tech}</span>
-
-                <a href="#contact" className="project-link">
-                  View Project →
-                </a>
               </article>
             ))}
           </div>
@@ -157,14 +152,12 @@ function App() {
         {/* Experience */}
         <section className="section" id="experience">
           <div className="section-header">
-            <span>04</span>
+            <span>Experience</span>
             <h2>Experience</h2>
           </div>
 
           <div className="experience">
-            <div className="experience-date">
-              Current
-            </div>
+            <div className="experience-date">Current</div>
 
             <div>
               <h3>Android & iOS Developer</h3>
@@ -172,10 +165,10 @@ function App() {
               <h4>Early Code School</h4>
 
               <p>
-                Developing mobile applications for Android and iOS using
-                React Native. Working on application interfaces, Firebase
-                integration, APIs, authentication, debugging and overall
-                application performance.
+                Developing mobile applications for Android and iOS using React
+                Native. Working on application interfaces, Firebase integration,
+                APIs, authentication, debugging and overall application
+                performance.
               </p>
             </div>
           </div>
@@ -183,7 +176,7 @@ function App() {
 
         {/* Contact */}
         <section className="contact-section" id="contact">
-          <p className="contact-label">05 — CONTACT</p>
+          <p className="contact-label">CONTACT</p>
 
           <h2>
             Let's work
@@ -192,14 +185,11 @@ function App() {
           </h2>
 
           <p>
-            I'm open to mobile development opportunities, freelance work
-            and interesting projects.
+            I'm open to mobile development opportunities, freelance work and
+            interesting projects.
           </p>
 
-          <a
-            href="mailto:YOUR_EMAIL@gmail.com"
-            className="button primary"
-          >
+          <a href="mailto:edwinogali6@gmail.com" className="button primary">
             Get In Touch
           </a>
         </section>
