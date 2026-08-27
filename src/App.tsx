@@ -90,7 +90,7 @@ function App() {
         {/* About */}
         <section className="section" id="about">
           <div className="section-header">
-            <span>01</span>
+            <span>01-About Me</span>
             <h2>About Me</h2>
           </div>
 
@@ -112,7 +112,7 @@ function App() {
         {/* Skills */}
         <section className="section" id="skills">
           <div className="section-header">
-            <span>02</span>
+            <span>02-Skills</span>
             <h2>Skills</h2>
           </div>
 
@@ -128,7 +128,7 @@ function App() {
         {/* Projects */}
         <section className="section" id="projects">
           <div className="section-header">
-            <span>03</span>
+            <span>03-Selected Projects</span>
             <h2>Selected Projects</h2>
           </div>
 
@@ -152,7 +152,7 @@ function App() {
         {/* Experience */}
         <section className="section" id="experience">
           <div className="section-header">
-            <span>Experience</span>
+            <span>04-Experience</span>
             <h2>Experience</h2>
           </div>
 
