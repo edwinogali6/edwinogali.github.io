@@ -188,13 +188,14 @@ function App() {
             I'm open to mobile development opportunities, freelance work and
             interesting projects.
           </p>
-
-          <a href="mailto:edwinogali6@gmail.com" className="button primary">
-            Send an Email
-          </a>
-          <a href="https://wa.link/zx42eg" className="button secondary">
-            WhatsApp
-          </a>
+          <div className="hero-buttons">
+            <a href="mailto:edwinogali6@gmail.com" className="button primary">
+              Send an Email
+            </a>
+            <a href="https://wa.link/zx42eg" className="button secondary">
+              WhatsApp
+            </a>
+          </div>
         </section>
       </main>
 
