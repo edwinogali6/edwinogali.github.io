@@ -302,7 +302,7 @@ a {
 }
 
 .contact-section h2 span {
-  color: #111111;
+  color: #777;
 }
 
 .contact-section > p:not(.contact-label) {
@@ -378,7 +378,7 @@ a {
 
   .hero h1 span {
     display: inline;
-    color: #777;
+    color: #0f0f0f;
   }
 
   .hero-description {
