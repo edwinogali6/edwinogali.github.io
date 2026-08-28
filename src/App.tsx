@@ -190,7 +190,10 @@ function App() {
           </p>
 
           <a href="mailto:edwinogali6@gmail.com" className="button primary">
-            Get In Touch
+            Send an Email
+          </a>
+          <a href="https://wa.link/zx42eg" className="button secondary">
+            WhatsApp
           </a>
         </section>
       </main>
@@ -201,7 +204,7 @@ function App() {
 
         <div>
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/edwinogali6"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -209,7 +212,7 @@ function App() {
           </a>
 
           <a
-            href="https://linkedin.com/in/YOUR_USERNAME"
+            href="https://www.linkedin.com/in/edwin-ogali-02731a247/"
             target="_blank"
             rel="noopener noreferrer"
           >
